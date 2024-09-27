@@ -15,7 +15,6 @@
         .heading{text-align: center;}
 
         .contact-card{
-            // border: 1px solid $dark;
             transition: .4s;
             padding: 32px;
             border-radius: 10px;
@@ -25,10 +24,6 @@
             &:hover{
                 box-shadow: $shadow-lg;
                 border: none;
-                // img {
-                //     animation: shakeRotateFixed 0.6s ease-in-out;
-                //     transform-origin: bottom right; /* Fix the rotation around the bottom-left corner */
-                // }
             }
             .text{font-size: 18px; margin: 0 !important;}
         }

@@ -189,85 +189,10 @@
 
     .navbar{
         height: 44px;
-        // position: fixed;
-        // width: 100%;
-        // z-index: 100;
-        // background-color: transparent; // Initially transparent
-        // transition: background-color 0.3s, top 0.3s;
-        // border-bottom: 1px solid $primary;
-        
-        // &.fixed-nav {
-        //   top: 0;
-        //   background-color: $primary; // White background after scrolling
-        // //   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Add shadow when scrolled
-        //   box-shadow: $shadow-sm;
-        //   border-bottom: none;
-        //   animation: fadeInDown 0.5s ease-in-out;
-        // //   .nav-link{color: $dark !important;}
-        // }
         .navbar-toggler-icon {
             width: 1.4rem;
             height: 1.4rem;
         }
-        .navbar-toggler:focus {
-            // outline: none !important;
-            // box-shadow: none !important;
-        }
-        .offcanvas{
-            // padding: 2rem 0;
-            // .btn-close:focus{
-            //     outline: none;
-            //     box-shadow: none;
-            //     font-size: .8rem !important;
-            // }
-           
-            // .navbar-nav{
-            //     align-items: center;
-            //     .nav-item{
-            //         font-size: 1rem;
-            //         margin-left: 16px;
-            //         font-family: $primary-font;
-            //         font-weight: $semibold;
-            //         position: relative;
-            //         .nav-link{
-            //             color: $white;
-            //             letter-spacing: 2px;
-            //             transition: 0.3s;
-            //             &:hover{
-            //                 color: $dark;
-            //             }
-    
-                        
-            //         }
-            //         position: relative;
-            //         .sub-item-wrap{
-            //             position: absolute;
-            //             left: -16px;
-            //             top: 24px;
-            //             width: 220px;
-            //             background: $white;
-            //             border-radius: 6px;
-            //             padding: 10px 16px;
-            //             display: none;
-            //             font-size: 14px;
-            //             li{
-            //                 margin: 4px 0;
-            //                 a{color: $dark;}
-            //             }
-            //         }
-            //         &:hover{
-            //             .sub-item-wrap{
-            //                 display: block;
-            //             }
-            //         }
-            //     }
-            // }
-            
-        }
-    
-        // .user-sm{
-        //     color: $primary;
-        // }
         .logo{
             height: 1.1rem;
         }
