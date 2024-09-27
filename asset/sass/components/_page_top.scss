@@ -60,7 +60,7 @@
 
 @media (max-width: 1200px) {
     .page-top{
-        padding-top: 180px;
+        // padding-top: 180px;
         height: 420px;
     
         .heading{
@@ -88,14 +88,15 @@
 
 @media (max-width: 576px) {
     .page-top{
-        padding-top: 120px;
-        height: 260px;
+        // padding-top: 120px;
+        height: 220px;
     
         .btn-nav{
-            padding: .6rem 1.6rem;
-            font-size: 12px;
+            padding: .5rem 1.5rem;
+            font-size: 11px;
         }
         .heading{
+            margin-top: 90px;
             margin-bottom: 24px;
             font-size: 32px;
         }
