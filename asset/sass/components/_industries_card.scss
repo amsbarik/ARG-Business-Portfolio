@@ -1,0 +1,25 @@
+@use "../base/" as *;
+@use "../partials/" as *;
+
+.industries-card{
+    position: relative;
+    height: 100%;
+    transition: .4s;
+    box-shadow: $shadow-sm;
+    overflow: hidden;
+    &:hover{box-shadow: $shadow-lg}
+    .industries-cover{
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+    .industries-logo{
+        width: 134px;
+        height: 134px;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+        border: 4px solid $bg-white;
+    }
+    .title{margin-top: 16px;}
+}

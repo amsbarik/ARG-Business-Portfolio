@@ -1,0 +1,51 @@
+@use "../base/" as *;
+@use "../partials/" as *;
+
+.management-card{
+    position: relative;
+    height: 100%;
+    transition: .4s;
+    box-shadow: $shadow-sm;
+    overflow: hidden;
+    &:hover{box-shadow: $shadow-lg}
+    .user-cover{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .user-photo{
+        width: 154px;
+        height: 154px;
+        position: absolute;
+        top: 80px;
+        left: 40px;
+        border: 4px solid $bg-white;
+    }
+    .title{margin-top: 18px;}
+}
+
+
+@media (max-width:1200px) {
+    .management-card{
+        // position: relative;
+        // height: 100%;
+        // transition: .4s;
+        // box-shadow: $shadow-sm;
+        // overflow: hidden;
+        // &:hover{box-shadow: $shadow-lg}
+        .user-cover{
+            // width: 100%;
+            height: 160px;
+            // object-fit: cover;
+        }
+        .user-photo{
+            width: 134px;
+            height: 134px;
+            // position: absolute;
+            top: 70px;
+            left: 30px;
+            // border: 4px solid $bg-white;
+        }
+        // .title{margin-top: 18px;}
+    }
+}
